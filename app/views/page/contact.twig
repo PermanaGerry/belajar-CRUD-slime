@@ -1,0 +1,21 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+    <form action="{{ path_for('non-contact') }}" method="post">
+        <div>
+            <p>Name Book</p>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <p>Author Book</p>
+            <input type="text" name="author" id="author">
+        </div>
+        <div>
+            <p>Page Book</p>
+            <input type="number" name="page" id="page">
+        </div>
+        <br><button type="submit" name="submit" value="submit">Save</button>
+    </form>
+
+{% endblock %}

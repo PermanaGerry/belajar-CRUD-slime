@@ -1,0 +1,21 @@
+{
+    "name": "kribo/slim3",
+    "type": "yes",
+    "license": "kribo",
+    "authors": [
+        {
+            "name": "gerry permana",
+            "email": "permana.gerry@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "app/",
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.2",
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}
